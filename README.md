@@ -25,7 +25,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 1. Instale o Flutter em seu computador seguindo os passos descritos na documentação oficial: https://flutter.dev/docs/get-started/install
 2. Clone o repositório do projeto em sua máquina
 3. Execute o comando `flutter pub get` no diretório raiz do projeto para instalar as dependências necessárias
-4. Conecte seu dispositivo móvel ao computador ou inicie um emulador de dispositivo móvel ou selecione o navegador(Chrome(web)) como Flutter Devive
+4. Conecte seu dispositivo móvel ao computador ou inicie um emulador de dispositivo móvel ou selecione o navegador(Chrome(web)) como Flutter Device.
 5. Execute o comando `flutter run` no diretório raiz do projeto para iniciar o aplicativo
 
 
