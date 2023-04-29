@@ -1,0 +1,1 @@
+enum Vencedor { nenhum, jogador1, jogador2 }
