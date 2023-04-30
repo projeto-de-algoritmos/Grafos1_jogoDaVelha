@@ -16,7 +16,10 @@ O projeto Jogo da Velha tem como objetivo implementar um jogo da velha no modo S
 Em último caso, a jogada é efetuada uma posição qualquer que esteja desocupada.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![Config 1 tabuleiro](./app_images/image1.png)
+![Config 2 tabuleiro](./app_images/image2.png)
+![resultado](./app_images/image3.png)
+
 
 ## Instalação 
 **Linguagem**: Dart<br>
