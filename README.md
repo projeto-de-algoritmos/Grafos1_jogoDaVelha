@@ -13,6 +13,9 @@
 O projeto Jogo da Velha tem como objetivo implementar um jogo da velha no modo Single Player. O jogo possui uma interface gráfica simples, onde o jogador pode selecionar uma posição do tabuleiro para fazer a jogada, e o algoritmo faz sua jogada logo em seguida. O algoritmo faz suas jogadas com base na configuração atual do tabuleiro, considerando quais posições ocupadas representam movimentos do jogador e quais representam movimentos do algoritmo. Com base nisso, a algoritmo busca busca uma jogada que possibilite um caminho para vitória ou impedir a derrota, analisando cada movimento e seus vizinhos. Caso não seja possível efetuar a jogada desejada, é o algoritmo tenta efetuar a jogada em no primeiro vizinho desocupado de um movimento que já realizou.
 Em último caso, a jogada é efetuada uma posição qualquer que esteja desocupada.
 
+## Vídeo de Apresentação
+https://unbbr.sharepoint.com/:v:/s/CandevCore/Eeu4qAtjfpBKpJ3TAWkp6v4BsyUYb_U3NFm2ZRTBbA67Kw?e=uTWjj8
+
 ## Screenshots
 ![Config 1 tabuleiro](./app_images/image1.png)
 ![Config 2 tabuleiro](./app_images/image2.png)
