@@ -89,13 +89,13 @@ class JogoController {
       var centro = 5;
       List<int> cantos = [1, 3, 7, 9];
       if(!movimentosJogador1.contains(centro)) return lacunas.indexWhere((lacuna) => lacuna.id == centro);
-      for (int i = 0; i < cantos.length; i++) {
-        if (!posicoesOcupadas.contains(cantos[i])) {
-          return lacunas.indexWhere((lacuna) => lacuna.id == cantos[i]);
+      for (var canto in cantos) {
+        if (!posicoesOcupadas.contains(canto)) {
+          return lacunas.indexWhere((lacuna) => lacuna.id == canto);
         }
       }
     }
-    //busca a vitoria
+    //Jogador2(PC) busca a vitoria se possuir 2 movimentos em alguma regra de vitoria
     for (var movimento in movimentosJogador2) {
       for (var vizinho in grafoTabuleiro[movimento]!) {
         if(movimentosJogador2.contains(vizinho)) {
@@ -110,7 +110,7 @@ class JogoController {
         }
       }
     }
-    //busca a vitoria
+    //Jogador2(PC) busca a vitoria se possuir vizinho vazio e 2 movimentos em alguma regra
     for (var movimento in movimentosJogador2) {
       for (var vizinho in grafoTabuleiro[movimento]!) {
         if (!posicoesOcupadas.contains(vizinho)) {
@@ -125,7 +125,7 @@ class JogoController {
         }
       }
     }
-    //impede derrota
+    //Jogador2(PC) impede a derrota se Jogador1 possuir 2 movimentos em alguma regra de vitoria
     for (var movimento in movimentosJogador1) {
       for (var vizinho in grafoTabuleiro[movimento]!) {
         if(movimentosJogador1.contains(vizinho)) {
@@ -140,7 +140,7 @@ class JogoController {
         }
       }
     }
-    //impede derrota
+    //Jogador2(PC) impede a derrota se possuir Jogador1 vizinho vazio e 2 movimentos em alguma regra
     for (var movimento in movimentosJogador1) {
       for (var vizinho in grafoTabuleiro[movimento]!) {
         if (!posicoesOcupadas.contains(vizinho)) {
