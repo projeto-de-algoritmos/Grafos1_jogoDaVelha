@@ -1,8 +1,6 @@
-# Grafos1_jogo_da_velha
-
 # Jogo da Velha
 
-**Número da Lista**: X<br>
+**Número da Lista**: 4<br>
 **Conteúdo da Disciplina**: Grafos1<br>
 
 ## Alunos
